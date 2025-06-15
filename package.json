@@ -1,0 +1,17 @@
+{
+  "name": "casino-ladder-helper",
+  "version": "1.0.0",
+  "description": "A dedicated helper bot for handling Greed's Ladder games.",
+  "main": "ladder_helper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ladder_helper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.1",
+    "pg": "^8.11.5"
+  }
+}
